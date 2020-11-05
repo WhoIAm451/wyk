@@ -1,0 +1,38 @@
+{
+  "name": "yeoubo",
+  "version": "1.0.0",
+  "description": "bot pour yeou",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^12.4.1",
+    "fs": "0.0.1-security",
+    "google-translate-api": "^2.3.0",
+    "kitsu.js": "^2.0.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "nekos.life": "^2.0.7",
+    "request": "^2.88.2",
+    "string-similarity": "^4.0.2",
+    "translate-google": "^1.4.3",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dqszxdbcyezfckq/kchoa.git"
+  },
+  "keywords": [
+    "discordbot"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dqszxdbcyezfckq/kchoa/issues"
+  },
+  "homepage": "https://github.com/dqszxdbcyezfckq/kchoa#readme"
+}
