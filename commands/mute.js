@@ -76,7 +76,7 @@ exports.conf = {
 
 exports.help = {
   name: 'mute',
-  description: 'Mute l\'utilisateur mentionné pour un certain temp',
-  usage: 'mute <mention> <temps (s, m, h, d)',
+  description: 'Mute l\'utilisateur mentionn.',
+  usage: 'mute <mention>',
   category: "mod"
 };

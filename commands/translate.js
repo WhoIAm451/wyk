@@ -195,5 +195,6 @@ module.exports.run = async (bot, message, args) => {
     name: 'translate',
     description: 'Traduit une phrase ou un mot dans le language choisie',
     usage: 'translate <langage> <text>',
+    usage2: 'translate langue',
     category: "info"
   };

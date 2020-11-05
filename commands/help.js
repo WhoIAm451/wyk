@@ -13,7 +13,7 @@ exports.run = async (client, message, params) => {
     .setColor(Math.floor(Math.random() * 16777214) + 1)
     .setTitle("**Liste des catégories de commandes**")
     .setDescription("Utilise " + prefix + " help <nom de la commande> pour avoir plus d'information.")
-    .addField("**Commandes :**", `ban, kick, unban\nserverinfo, botinfo, userinfo, avatar, ping`)
+    .addField("**Commandes :**", `ban, kick, unban, mute, unmute, clear\nserverinfo, botinfo, userinfo, avatar, ping\ntranslate, weather`)
     .setFooter(client.user.username, client.user.displayAvatarURL).setTimestamp()
     message.channel.send(HelpEmbed)
 
