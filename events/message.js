@@ -6,13 +6,7 @@ module.exports = message => {
   if (message.author.bot) return;
   if(message.channel.type === "dm") return;
 
-  let prefixes = JSON.parse(fs.readFileSync("./prefixes.json", "utf8"));
-  if(!prefixes[message.guild.id]){
-    prefixes[message.guild.id] = {
-      prefixes: settings.prefix
-    };
-  }
-  let prefix = prefixes[message.guild.id].prefixes;
+  let prefix = settings.prefix
   if(!message.content.startsWith(prefix)) return;
 
   const command = message.content.split(' ')[0].slice(prefix.length);
