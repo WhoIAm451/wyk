@@ -24,7 +24,7 @@ function guildMemberRemove (member) {
 }
 function guildMemberAdd (member) {
   console.log(`Nouvelle utilisateur '${member.user.username}' a rejoint '${member.guild.name}'` );
-  member.guild.defaultChannel.send(`Bonjour, ${member.user.username}!`);
+  client.channels.get('770289255607173151').send(`Bonjour, ${member.user.username}!`);
 }
   class Routing {
 
