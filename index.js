@@ -41,4 +41,4 @@ client.on('guildMemberAdd', Routing.guildMemberAdd);
 client.on('guildMemberRemove', Routing.guildMemberRemove);
 console.log(bluecolor(`Commande prête !`));
 
-client.login(process.env.token);
+client.login(process.env.TOKEN);
