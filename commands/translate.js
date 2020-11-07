@@ -113,6 +113,10 @@ const langs = {
 module.exports.run = async (bot, message, args) => {
 
     try {
+        if (repar === 1){
+            message.channel.send("Commande en réparation...")
+            return;
+        }
         function getCode(desiredLang) {
             if (!desiredLang) {
               return false
