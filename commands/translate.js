@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const translate = require('translate-google');
 const fs = require("fs");
 const config = require('../config.json')
+const repar = 1;
 
 const langs = {
     auto: 'Automatic',
